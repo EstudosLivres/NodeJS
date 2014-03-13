@@ -29,4 +29,4 @@ __Tópicos__:
 * __Process__: _Objeto que trás atributos da execução do Node. O attr argv (process.argv) é um vetor, em strings, dos parametros passados. Exemplo:_ __node process.js 1 2 3__ _irá mostrar: ['node', 'path', '1', '2', '3']_
 
 * __Synchronous__:
- * __filesystem 'fs'__: Serve para as manipulações de arquivo. É um objeto do tipo __synchronous__ e para utilizá-lo basta usar: __var fs = require('fs')__ e o uso da função __fs.readFileSync('/path/to/file')__ retorna um objeto __Buffer__ que pode ser passado para String: __var str = buf.toString()__
+ * __filesystem 'fs'__: <br>Serve para as manipulações de arquivo. É um objeto do tipo __synchronous__ e para utilizá-lo basta usar: __var fs = require('fs')__ e o uso da função __fs.readFileSync('/path/to/file')__ retorna um objeto __Buffer__ que pode ser passado para String: __var str = buf.toString()__
